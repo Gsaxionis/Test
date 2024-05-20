@@ -1,0 +1,10 @@
+Feature: EUDI Wallet - 1st test case
+  In order to realize a named business value
+  As an explicit system actor
+  I want to gain some beneficial outcome which furthers the goal
+
+Scenario: Monitoring a new low risk customer
+ Given Joe is a new customer
+ And Joe is considered a low risk customer
+ When he is onboarded
+ Then his account should be scheduled for review in 3 months time
