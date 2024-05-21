@@ -1,5 +1,5 @@
-@Manual
-@Manual:Passed
+@manual
+@manual:Passed
 
 Scenario Outline: Launch EUDI Wallet and set up PIN
    Given the user launches the EUDI Wallet for the first time
