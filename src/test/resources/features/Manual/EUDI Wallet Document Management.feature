@@ -2,7 +2,7 @@
 @manual:Failed
 
 # GitHub Issue: #19 or https://github.com/Gsaxionis/Test/issues/19
-@manual
+
 Scenario: Launch EUDI Wallet and set up PIN
    Given the user launches the EUDI Wallet for the first time
    When the user sets up the PIN
