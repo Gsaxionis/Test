@@ -1,7 +1,7 @@
-@manual
+@manual @manual:Failed
 Feature: User story 1
 
-  @SCENARIO_01 @manual:Failed
+  @SCENARIO_01
   Scenario: Launch EUDI Wallet and set up PIN
     Given the user launches the EUDI Wallet for the first time
     When the user sets up the PIN
@@ -12,7 +12,7 @@ Feature: User story 1
     And the user follows the corresponding process
     Then the PID is displayed in the EUDI Wallet dashboard
 
-  @SCENARIO_02 @manual:Success
+  @SCENARIO_02
   Scenario: Add document again using the 'Add doc' button
     Given the user is on the EUDI Wallet dashboard
     When the user clicks on the 'Add doc' button
