@@ -19,7 +19,6 @@ jobs:
 
       - name: Run Manual Tests
         run: |
-          #!/bin/bash
           mvn clean verify -Dcucumber.filter.tags="@manual" $*
 
       - name: Produce report
