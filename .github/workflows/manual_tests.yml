@@ -12,12 +12,6 @@ jobs:
           java-version: 17
           distribution: 'oracle'
 
-
-      - name: Set up Node JS 18.16.1
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18.16.1'
-
       - name: Run Manual Tests
         run: |
           mvn clean verify -Dcucumber.filter.tags="@manual"
