@@ -19,7 +19,7 @@ jobs:
 
       - name: Run Manual Tests
         run: |
-          mvn clean verify -Dcucumber.filter.tags="@manual" $*
+          mvn clean verify -Dcucumber.filter.tags="@manual"
 
       - name: Produce report
         run: mvn serenity:aggregate
