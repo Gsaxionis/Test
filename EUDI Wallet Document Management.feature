@@ -8,17 +8,10 @@ Scenario: Launch EUDI Wallet and set up PIN
    When the user sets up the PIN
    Then the 'Add document' screen should appear
    And the user should be able to add only their PID
-
- Scenario: Add National ID
-   Given the user is on the 'Add document' screen
-   When the user clicks on the 'National ID' option
-   Then the user should be redirected to the issuance service
-   And follows the corresponding process
-
- Scenario: Confirm issuance of PID
-   Given the user is using the issuance service
-   When the user previews the PID and confirms its issuance
-   Then the PID should be displayed in the EUDI Wallet dashboard
+   And the user clicks on the National ID option
+   And the user is redirected to the issuance service 
+   And the user follows the corresponding process
+   Then the PID is displayed in the EUDI Wallet dashboard
 
  Scenario: Add document again using the 'Add doc' button
    Given the user is on the EUDI Wallet dashboard
