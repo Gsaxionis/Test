@@ -6,7 +6,7 @@
 Scenario: Launch EUDI Wallet and set up PIN
    Given the user launches the EUDI Wallet for the first time
    When the user sets up the PIN
-   Then the 'Add document' screen should appear
+   And the 'Add document' screen appears
    And the user should be able to add only their PID
    And the user clicks on the National ID option
    And the user is redirected to the issuance service 
