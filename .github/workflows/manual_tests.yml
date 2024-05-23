@@ -3,7 +3,7 @@ name: Ui Workflow
 on: [push]
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3 #checkout the code
       - name: Set up JDK 17
@@ -17,7 +17,7 @@ jobs:
           mvn clean verify -Dcucumber.filter.tags="@manual"
 
       - name: Produce report
-        run: mvn serenity:aggregate
+        run: mvn serenity:aggregate -X
 
       - name: Upload screenshots
         uses: actions/upload-artifact@v4
