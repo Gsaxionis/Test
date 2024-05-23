@@ -300,7 +300,7 @@ public class GeneralStepDefs {
         //manual
     }
 
-    @And("the {string} screen appears")
+    @And("the 'Add document' screen appears")
     public void theAddDocumentScreenAppears() {
         //manual
     }
@@ -335,12 +335,12 @@ public class GeneralStepDefs {
         //manual
     }
 
-    @When("the user clicks on the {string} button")
+    @When("the user clicks on the 'Add doc' button")
     public void theUserClicksOnTheAddDocButton() {
         //manual
     }
 
-    @Then("the {string} screen should appear")
+    @Then("the 'Add document' screen should appear")
     public void theAddDocumentScreenShouldAppear() {
         //manual
     }
