@@ -10,6 +10,7 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
 import java.time.Duration;
@@ -287,6 +288,61 @@ public class GeneralStepDefs {
         test.mobile().wallet().enterDocumentNumber();
         test.mobile().wallet().clickScreen();
         test.mobile().wallet().clickSubmit();
+    }
+
+    @Given("the user launches the EUDI Wallet for the first time")
+    public void theUserLaunchesTheEUDIWalletForTheFirstTime() {
+        //manual
+    }
+
+    @When("the user sets up the PIN")
+    public void theUserSetsUpThePIN() {
+        //manual
+    }
+
+    @And("the {string} screen appears")
+    public void theAddDocumentScreenAppears() {
+        //manual
+    }
+
+    @And("the user should be able to add only their PID")
+    public void theUserShouldBeAbleToAddOnlyTheirPID() {
+        //manual
+    }
+
+    @And("the user clicks on the National ID option")
+    public void theUserClicksOnTheNationalIDOption() {
+        //manual
+    }
+
+    @And("the user is redirected to the issuance service")
+    public void theUserIsRedirectedToTheIssuanceService() {
+        //manual
+    }
+
+    @And("the user follows the corresponding process")
+    public void theUserFollowsTheCorrespondingProcess() {
+        //manual
+    }
+
+    @Then("the PID is displayed in the EUDI Wallet dashboard")
+    public void thePIDIsDisplayedInTheEUDIWalletDashboard() {
+        //manual
+    }
+
+    @Given("the user is on the EUDI Wallet dashboard")
+    public void theUserIsOnTheEUDIWalletDashboard() {
+        //manual
+    }
+
+    @When("the user clicks on the {string} button")
+    public void theUserClicksOnTheAddDocButton() {
+        //manual
+    }
+
+    @Then("the {string} screen should appear")
+    public void theAddDocumentScreenShouldAppear() {
+        //manual
     }
 }
 

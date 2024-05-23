@@ -49,7 +49,7 @@ public class MobileWebDriverFactory {
 
         try {
             androidDriver = new AndroidDriver(new URL(test.envDataConfig().getAppiumUrl()), caps2);
-            wait = new WebDriverWait(androidDriver, 80);
+            wait = new WebDriverWait(androidDriver, Duration.ofMillis(80));
         } catch (Exception e) {
             System.out.println(e.toString());
             e.printStackTrace();
@@ -75,7 +75,7 @@ public class MobileWebDriverFactory {
         caps1.setCapability("autoAcceptAlerts",true);
         try {
             iosDriver = new IOSDriver(new URL(test.envDataConfig().getAppiumUrl()), caps1);
-            wait = new WebDriverWait(iosDriver, 80);
+            wait = new WebDriverWait(iosDriver, Duration.ofMillis(80));
         } catch (Exception e) {
             System.out.println(e.toString());
             e.printStackTrace();

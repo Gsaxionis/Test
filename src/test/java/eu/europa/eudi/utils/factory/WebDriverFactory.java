@@ -73,7 +73,7 @@ public class WebDriverFactory {
                     throw new IllegalStateException("Invalid BROWSER value on env.properties");
             }
         }
-        waitDriver = new WebDriverWait(driver, 1000);
+        waitDriver = new WebDriverWait(driver, Duration.ofMillis(1000));
        // fluentWait = new FluentWait<>(driver).withTimeout(1000);
         test.context().setUiTest(true);
         return this;
