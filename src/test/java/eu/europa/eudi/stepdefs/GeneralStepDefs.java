@@ -344,5 +344,25 @@ public class GeneralStepDefs {
     public void theAddDocumentScreenShouldAppear() {
         //manual
     }
+
+    @Given("Joe is a new customer")
+    public void joeIsANewCustomer() {
+        //manual
+    }
+
+    @And("Joe is considered a low risk customer")
+    public void joeIsConsideredALowRiskCustomer() {
+        //manual
+    }
+
+    @When("he is onboarded")
+    public void heIsOnboarded() {
+        //manual
+    }
+
+    @Then("his account should be scheduled for review in 3 months time")
+    public void hisAccountShouldBeScheduledForReviewInMonthsTime() {
+        //manual
+    }
 }
 

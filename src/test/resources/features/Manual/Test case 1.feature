@@ -2,7 +2,6 @@
 @manual-result:passed
 @manual-last-tested:sprint-15
 
-
 Feature: EUDI Wallet - 1st test case
 
 Scenario: Monitoring a new low risk customer
