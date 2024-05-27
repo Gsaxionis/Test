@@ -399,5 +399,40 @@ public class GeneralStepDefs {
     public void theJourneyPageIsDisplayed() {
         //manual
     }
+
+    @Given("the user is on the {string} screen again")
+    public void theUserIsOnTheAddDocumentScreenAgain() {
+        //manual
+    }
+
+//    @When("the user clicks on the {string} option")
+//    public void theUserClicksOnTheNationalIDOption() {
+//        //manual
+//    }
+
+    @Then("the user should be redirected to the issuance service again")
+    public void theUserShouldBeRedirectedToTheIssuanceServiceAgain() {
+        //manual
+    }
+
+    @And("follows the corresponding process")
+    public void followsTheCorrespondingProcess() {
+        //manual
+    }
+
+    @Given("the user is using the issuance service again")
+    public void theUserIsUsingTheIssuanceServiceAgain() {
+        //manual
+    }
+
+    @When("the user previews the PID and confirms its issuance again")
+    public void theUserPreviewsThePIDAndConfirmsItsIssuanceAgain() {
+        //manual
+    }
+
+    @Then("the PID should be displayed again in the EUDI Wallet dashboard")
+    public void thePIDShouldBeDisplayedAgainInTheEUDIWalletDashboard() {
+        //manual
+    }
 }
 
