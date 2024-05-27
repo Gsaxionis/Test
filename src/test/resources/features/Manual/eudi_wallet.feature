@@ -8,6 +8,7 @@ Feature: EUDI Wallet
   When he is onboarded
   Then his account should be scheduled for review in 3 months time
 
+
  @LOGIN_01 @manual:Failed
  Scenario: Login (positive flow) and dashboard page
   Given splash and welcome screen is appeared
