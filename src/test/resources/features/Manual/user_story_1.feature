@@ -1,6 +1,5 @@
 @manual
 Feature: User story 1
-
   @SCENARIO_01 @manual:Failed
   Scenario: Launch EUDI Wallet and set up PIN
     Given the user launches the EUDI Wallet for the first time

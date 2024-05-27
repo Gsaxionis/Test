@@ -364,5 +364,40 @@ public class GeneralStepDefs {
     public void hisAccountShouldBeScheduledForReviewInMonthsTime() {
         //manual
     }
+
+    @Given("splash and welcome screen is appeared")
+    public void splashAndWelcomeScreenIsAppeared() {
+        //manual
+    }
+
+    @And("user swipes welcome pages")
+    public void userSwipesWelcomePages() {
+        //manual
+    }
+
+    @And("user accepts terms and conditions")
+    public void userAcceptsTermsAndConditions() {
+        //manual
+    }
+
+    @And("user sets up pin")
+    public void userSetsUpPin() {
+        //manual
+    }
+
+    @And("user close and restart app")
+    public void userCloseAndRestartApp() {
+        //manual
+    }
+
+    @And("user enters correctly their PIN")
+    public void userEntersCorrectlyTheirPIN() {
+        //manual
+    }
+
+    @Then("the journey page is displayed")
+    public void theJourneyPageIsDisplayed() {
+        //manual
+    }
 }
 
