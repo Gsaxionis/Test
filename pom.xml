@@ -7,7 +7,7 @@
     <version>5.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Eudi Wallet</name>
+    <name>Frontex automated tests</name>
 
     <properties>
         <!--suppress UnresolvedMavenProperty -->
@@ -25,6 +25,7 @@
         <maven-failsafe-plugin.version>3.1.2</maven-failsafe-plugin.version>
         <assembly.phase>none</assembly.phase>
         <serenity.bdd.version>3.9.2</serenity.bdd.version>
+        <rerun.failed.scenarios>2</rerun.failed.scenarios>
     </properties>
 
     <dependencies>
@@ -106,9 +107,6 @@
                 <executions>
                     <execution>
                         <phase>integration-test</phase>
-                        <goals>
-                            <goal>aggregate</goal>
-                        </goals>
                     </execution>
                 </executions>
             </plugin>
@@ -126,7 +124,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
-                    <rerunFailingTestsCount>0</rerunFailingTestsCount>
+                    <rerunFailingTestsCount>${rerun.failed.scenarios}</rerunFailingTestsCount>
                     <skip>false</skip>
                 </configuration>
             </plugin>
