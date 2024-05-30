@@ -3,6 +3,8 @@ Feature: Credential offer
 
 # GitHub Issue: #6 or https://github.com/Gsaxionis/Test/issues/6
 
+
+
   @manual:Passed
 Scenario: Launch EUDI Wallet and set up PIN
    Given the user launches the EUDI Wallet for the first time

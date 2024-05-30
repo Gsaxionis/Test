@@ -434,5 +434,11 @@ public class GeneralStepDefs {
     public void thePIDShouldBeDisplayedAgainInTheEUDIWalletDashboard() {
         //manual
     }
+
+    @Given("the app is installed")
+    public void theAppIsInstalled() {
+    }
+
+
 }
 

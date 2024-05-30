@@ -1,6 +1,6 @@
 @manual
 Feature: User story 1
-  @SCENARIO_01 @manual:Failed
+  @SCENARIO_01 @manual:Failed @Bug
   Scenario: Launch EUDI Wallet and set up PIN
     Given the user launches the EUDI Wallet for the first time
     When the user sets up the PIN
